@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cordis Obiefule</title>
+  <link rel="stylesheet" href="assets/css/splash.css">
+</head>
+<body>
+  <main id="splash" class="splash">
+    <div class="wizard-stage wizard-stage--left" aria-hidden="true">
+      <canvas id="wizardLeft"></canvas>
+      <div class="wizard-placeholder">WIZARD</div>
+    </div>
+
+    <div class="name-lockup" id="nameLockup" aria-label="Cordis Obiefule">
+      <span>CORDIS</span>
+      <span>OBIEFULE</span>
+    </div>
+
+    <div class="wizard-stage wizard-stage--right" aria-hidden="true">
+      <canvas id="wizardRight"></canvas>
+      <div class="wizard-placeholder">WIZARD</div>
+    </div>
+
+    <div class="magic-layer" aria-hidden="true">
+      <svg id="purpleBolt" class="cast-bolt cast-bolt--purple" viewBox="0 0 200 60" preserveAspectRatio="none">
+        <path d="M0 30 L60 18 L48 34 L110 22 L92 40 L160 26 L146 44 L200 32"/>
+      </svg>
+
+      <svg id="goldBolt" class="cast-bolt cast-bolt--gold" viewBox="0 0 200 60" preserveAspectRatio="none">
+        <path d="M0 30 L60 18 L48 34 L110 22 L92 40 L160 26 L146 44 L200 32"/>
+      </svg>
+
+      <div id="purpleImpact" class="impact impact--purple"></div>
+      <div id="goldImpact" class="impact impact--gold"></div>
+      <svg id="grandStrike" class="grand-strike" viewBox="0 0 200 800" preserveAspectRatio="none" aria-hidden="true">
+        <path d="M100 0 L82 140 L118 150 L70 320 L112 330 L60 520 L104 528 L88 800"/>
+      </svg>
+      <div id="grandFlash" class="grand-flash"></div>
+    </div>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/@rive-app/canvas@2.34.0"></script>
+  <script src="assets/js/splash.js"></script>
+</body>
+</html>
