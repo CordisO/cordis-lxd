@@ -396,7 +396,7 @@ loadTrack(currentTrackIndex);
       eyebrow: "Case Study",
       title: "Blahlo",
       subtitle: "A neurodivergent-first language learning app built around context, construction, and the learner's own world.",
-      meta: ["Instructional Design", "Product Design", "Learning Experience Design"],
+      meta: ["Instructional Design", "Product Design", "Learning Experience Design", "Figma", "Interaction Design", "2026"],
       hook: "Most apps teach you to recognize language. Blahlo teaches you to build it.",
             hero: {
         src: "assets/images/case-studies/blahlo/hero.png",
@@ -478,11 +478,11 @@ loadTrack(currentTrackIndex);
 
     /* Add cosmos, vocabulingo, etc. here as separate keys following the same shape */
     /* Cosmos */
-        cosmos: {
+      cosmos: {
       eyebrow: "Case Study",
       title: "Cosmos",
       subtitle: "A structured astrology learning app that teaches the system, not the horoscope.",
-      meta: ["Instructional Design", "Product Design", "Learning Experience Design", "2025"],
+      meta: ["Instructional Design", "Product Design", "Learning Experience Design", "Figma", "Interaction Design", "2026"],
       hook: "How do you teach a system, rather than a collection of facts?",
 
       hero: {
@@ -568,7 +568,7 @@ loadTrack(currentTrackIndex);
     eyebrow: "Case Study",
     title: "Decodyssey",
     subtitle: "A neurodivergent-first critical thinking app that reframes reasoning as a survival skill, not an academic exercise.",
-    meta: ["Product Design", "Instructional Architecture", "PWA Engineering", "2025"],
+    meta: ["Product Design", "Instructional Architecture", "PWA Engineering", "HTML/CSS/JS", "Figma", "Timeline: 3 Months"],
     hook: "Critical thinking isn't abstract logic. It's survival in a world designed to manipulate you.",
 
     sections: [
