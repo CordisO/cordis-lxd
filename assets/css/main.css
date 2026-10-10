@@ -500,7 +500,7 @@ a.action-btn.cv{
 .blog-image{
   width: 100%;
   aspect-ratio: 16 / 10;
-  border: 2px solid var(--accent);
+  border: 2px solid var(--divider);
   border-radius: 4px;        /* slight rounding — matches Canva's near-square corners */
   overflow: hidden;
   background: #e9f7e0;       /* fallback tint while image loads */
