@@ -534,10 +534,10 @@ loadTrack(currentTrackIndex);
           blocks: [
             { type: "text", value: "<strong>A Sanctuary of Light.</strong> Cosmos is designed to feel like stepping into a calm night sky — deep, atmospheric, and clear. Every color earns its role." },
             { type: "palette", items: [
-              { hex: "#3A2E52", name: "Cosmic Violet" },
-              { hex: "#1A1A2E", name: "Cosmic Ink" },
-              { hex: "#E0A9C1", name: "Starchild Magenta" },
-              { hex: "#FFD166", name: "Starlight Gold" }
+              { hex: "#9846FF", name: "Cosmic Violet" },
+              { hex: "#4A008B", name: "Cosmic Ink" },
+              { hex: "#CB6CE6", name: "Starchild Magenta" },
+              { hex: "#DEA639", name: "Starlight Gold" }
             ]},
             { type: "text", value: "<strong>Principle of Restraint:</strong> gold is never decorative. It's reserved for moments of discovery and correct answers, so illumination feels earned." },
             { type: "image",
