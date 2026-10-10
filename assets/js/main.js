@@ -398,6 +398,10 @@ loadTrack(currentTrackIndex);
       subtitle: "A neurodivergent-first language learning app built around context, construction, and the learner's own world.",
       meta: ["Instructional Design", "Product Design", "Learning Experience Design"],
       hook: "Most apps teach you to recognize language. Blahlo teaches you to build it.",
+            hero: {
+        src: "assets/images/case-studies/blahlo/hero.png",
+        alt: "Blahlo home screen"
+      },
 
       sections: [
         {
@@ -425,8 +429,16 @@ loadTrack(currentTrackIndex);
                 body: "Language is learned the way a child learns their first language: expanding outward from the self. <strong>The Self → Family &amp; Home → Community → Society.</strong> Each ring is a <em>context</em>, not a unit. New language attaches to familiar experience instead of abstract vocabulary lists."
               }
             ]},
-            { type: "visual", label: "[ CVT diagram — saya mau makan breakdown ]" },
-            { type: "visual", label: "[ CLM diagram — concentric rings ]" }
+            { type: "image",
+              src: "assets/images/case-studies/blahlo/cvt-diagram.png",
+              alt: "The Concentric Vertical Tree diagram",
+              caption: "The Concentric Vertical Tree — expression-driven sequencing"
+            },
+            { type: "image",
+              src: "assets/images/case-studies/blahlo/clm.png",
+              alt: "The Concentric Learning Model diagram",
+              caption: "The Concentric Learning Model — context expanding outward from the self"
+            },
           ]
         },
         {
@@ -435,7 +447,11 @@ loadTrack(currentTrackIndex);
             { type: "text", value: "Blahlo is not just an app. It is a world." },
             { type: "text", value: "At its center is the <strong>Blah Family</strong> — recurring characters whose relationships, expressions, and everyday situations carry meaning. The learner encounters the same faces, spaces, and rhythms throughout the experience. Over time, these familiar elements become part of the language itself." },
             { type: "text", value: "Before each lesson, short illustrated scenes establish what's happening through action and emotion. A character rubs their stomach, looks uncomfortable, and says: <em>\"Saya lapar.\"</em> The learner begins to understand <em>lapar</em> through the situation before ever being given a translation." },
-            { type: "visual", label: "[ Figma screenshots — Blah Family, animated scene, lesson UI ]" },
+            { type: "image",
+              src: "assets/images/case-studies/blahlo/lesson-screen.png",
+              alt: "Bini and Uli on a lesson screen",
+              caption: "Bini and Uli — the twins who accompany the learner through the experience"
+            },
             { type: "text", value: "<strong>Visual identity:</strong> Cozy playground — warm, calm, tactile, but never overwhelming." },
             { type: "palette", items: [
               { hex: "#9956DE", name: "Purple" },
@@ -458,9 +474,172 @@ loadTrack(currentTrackIndex);
         notion: "https://app.notion.com/p/Blahlo-Pedagogical-and-Product-Design-Case-Study-3e6bad679d9a806f93e7df175d20fc37?source=copy_link",
         figma:  "https://www.figma.com/proto/OPcw89neN6KZgKPm9xVw16/Blahlo?node-id=0-1&t=J9d7lMufHr4IqYTq-1"
       }
-    }
+    },
 
     /* Add cosmos, vocabulingo, etc. here as separate keys following the same shape */
+    /* Cosmos */
+        cosmos: {
+      eyebrow: "Case Study",
+      title: "Cosmos",
+      subtitle: "A structured astrology learning app that teaches the system, not the horoscope.",
+      meta: ["Instructional Design", "Product Design", "Learning Experience Design", "2025"],
+      hook: "How do you teach a system, rather than a collection of facts?",
+
+      hero: {
+        src: "assets/images/case-studies/cosmos/hero.png",
+        alt: "Cosmos home screen"
+      },
+
+      sections: [
+        {
+          title: "The Problem",
+          blocks: [
+            { type: "text", value: "Learning astrology as a beginner runs into three structural walls." },
+            { type: "text", value: "<strong>Extreme simplification or extreme jargon</strong> — popular apps reduce the entire discipline to daily sun-sign horoscopes, while technical tools dump advanced chart calculations on learners without defining the fundamentals." },
+            { type: "text", value: "<strong>Isolated facts without systemic context</strong> — astrology is planets, signs, houses, and aspects working together. Existing resources present these as separate reference definitions instead of showing how they combine into a coherent reading." },
+            { type: "text", value: "<strong>No structured progression</strong> — beginners piecemeal their education across scattered sources, with no sequence that moves from zero knowledge to ethical, practical chart reading." },
+            { type: "callout", value: "\"Astrology isn't a collection of meanings. It's a language — and languages are learned as systems.\"" }
+          ]
+        },
+        {
+          title: "The Thinking",
+          blocks: [
+            { type: "text", value: "Two learner types arrive with different starting points but the same underlying need." },
+            { type: "text", value: "<strong>The Curious Beginner</strong> — no prior knowledge, intellectually curious, but quickly bounced off shallow horoscope content. They need a reliable starting point and explanations that build understanding, not definitions." },
+            { type: "text", value: "<strong>The Developing Practitioner</strong> — some vocabulary and concept familiarity, but now facing the real question: <em>how does it all fit together?</em> As charts, houses, and aspects multiply, existing knowledge becomes hard to organize." },
+            { type: "text", value: "<strong>The shared problem:</strong> both learners need to move beyond <em>knowing astrology terms</em> toward <em>understanding how the system works.</em> That distinction became the foundation for the learning experience." },
+            { type: "duo", items: [
+              {
+                title: "The Hermetic Spiral Model",
+                sub: "A curriculum that revisits instead of accumulates",
+                body: "Rather than treating learning as a linear march through isolated topics, the Spiral Model brings learners back to foundational concepts at increasing levels of complexity. Each stage builds on established knowledge, and new concepts are only introduced once the learner has the foundations to use them.<br><br><strong>Level 1 — Recognition:</strong> understand individual concepts<br><strong>Level 2 — Connection:</strong> understand how concepts relate<br><strong>Level 3 — Synthesis:</strong> combine previously learned concepts<br><strong>Level 4 — Interpretation:</strong> use relationships to make meaning"
+              },
+              {
+                title: "The Ascension",
+                sub: "How the model becomes a curriculum",
+                body: "The Hermetic Spiral Model translates into a structured curriculum organized as <strong>Orders → Chapters → Lessons.</strong> Orders span broad areas of knowledge. Chapters group related lessons. Lessons are 300+ micro-units, each focused on a single concept.<br><br>Progression is linear and locked — every new concept appears only after its prerequisites have been taught."
+              }
+            ]},
+            { type: "text", value: "<strong>The Four Movements</strong> — every micro-lesson follows the same 4-step sequence. The system works as a whole, so it's best seen together:" },
+            { type: "grid", items: [
+              { src: "assets/images/case-studies/cosmos/movement-1.png", alt: "Movement I — The Revelation", caption: "I. The Revelation — paced audio + animated storytelling" },
+              { src: "assets/images/case-studies/cosmos/movement-2.png", alt: "Movement II — The Recognition", caption: "II. The Recognition — 4 retrieval exercises, 80% to proceed" },
+              { src: "assets/images/case-studies/cosmos/movement-3.png", alt: "Movement III — The Integration", caption: "III. The Integration — guided practice on a neutral chart" },
+              { src: "assets/images/case-studies/cosmos/movement-4.png", alt: "Movement IV — The Production", caption: "IV. The Production — independent expression, saved to Journal" }
+            ]}
+          ]
+        },
+        {
+          title: "The Product",
+          blocks: [
+            { type: "text", value: "<strong>A Sanctuary of Light.</strong> Cosmos is designed to feel like stepping into a calm night sky — deep, atmospheric, and clear. Every color earns its role." },
+            { type: "palette", items: [
+              { hex: "#3A2E52", name: "Cosmic Violet" },
+              { hex: "#1A1A2E", name: "Cosmic Ink" },
+              { hex: "#E0A9C1", name: "Starchild Magenta" },
+              { hex: "#FFD166", name: "Starlight Gold" }
+            ]},
+            { type: "text", value: "<strong>Principle of Restraint:</strong> gold is never decorative. It's reserved for moments of discovery and correct answers, so illumination feels earned." },
+            { type: "image",
+              src: "assets/images/case-studies/cosmos/cosmo.png",
+              alt: "Cosmo, the guide character",
+              caption: "Cosmo — an otherworldly companion, not a mascot"
+            },
+            { type: "text", value: "Cosmo isn't a gamification gimmick. He's a minimal silhouette with a single golden eye who narrates the Revelation, offers hints in the Integration, and remains a calm focal point throughout. He communicates guidance through movement and light rather than rigid text alerts." }
+          ]
+        },
+        {
+          title: "Reflection",
+          blocks: [
+            { type: "text", value: "Cosmos challenged me to treat astrology as a subject that requires structured learning design, not content delivery. The two frameworks I developed — the Hermetic Spiral Model and The Ascension — were the actual design work; the interface was the evidence." },
+            { type: "text", value: "Working within visual asset constraints taught me something about scope: what I could produce wasn't the whole vision, and that's fine. The frameworks are portable. They'd apply to any subject where the goal is teaching a system rather than a set of facts." },
+            { type: "text", value: "If I were to continue, the next step would be prototyping a full lesson end to end and testing how learners respond to the Movement progression — particularly whether the 80% threshold encourages or discourages beginners. The system is sound in theory; the next stage is watching it work." }
+          ]
+        }
+      ],
+
+      links: {
+        notion: "https://magnificent-gauge-790.notion.site/Cosmos-Astrology-Learning-App-3edbad679d9a80ed9a76f5323d7db91d?pvs=74",
+        figma:  "https://www.figma.com/proto/Ty9cNI5kUkR0LNFOM6Z1gO/Cosmos?node-id=0-1&t=rpVCOEqjISqFsDon-1"
+      }
+    },
+    /* Decodyssey */
+    decodyssey: {
+    eyebrow: "Case Study",
+    title: "Decodyssey",
+    subtitle: "A neurodivergent-first critical thinking app that reframes reasoning as a survival skill, not an academic exercise.",
+    meta: ["Product Design", "Instructional Architecture", "PWA Engineering", "2025"],
+    hook: "Critical thinking isn't abstract logic. It's survival in a world designed to manipulate you.",
+
+    sections: [
+      {
+        title: "The Problem",
+        blocks: [
+          { type: "text", value: "Critical thinking instruction in digital media is built on Western academic paradigms — formal fallacies, debate structure, hypothetical puzzles. These assume reasoning is an intellectual luxury, not a daily survival tool." },
+          { type: "text", value: "But most people don't face clean logical problems. They face manipulative ads, fake urgency, predatory contracts, and language engineered to override their judgment. The gap isn't intelligence — it's context." },
+          { type: "callout", value: "\"Reasoning should be trained against the situations it's actually used in — not the ones that look good on a syllabus.\"" }
+        ]
+      },
+      {
+        title: "The Instructional Approach",
+        blocks: [
+          { type: "duo", items: [
+            {
+              title: "Survival Reasoning",
+              sub: "Reframing critical thinking for real-world pressure",
+              body: "Instead of teaching formal logic through abstract puzzles, Decodyssey embeds reasoning directly into high-stakes scenarios — deceptive mechanics like fake urgency, false authority, and manipulated social proof. Learners practice recognizing manipulation under the same psychological pressure it actually occurs in."
+            },
+            {
+              title: "The 5-Part Scenario Loop",
+              sub: "How each module is structured",
+              body: "Every lesson moves through a fixed sequence engineered to simulate real pressure without overwhelming the learner: <strong>Context Setup → Manipulative Trap → Decision Point → Constrained Choice → Explanatory Feedback.</strong> The loop is deliberately short — 2 to 3 minutes per module."
+            }
+          ]},
+            { type: "image",
+              src: "assets/images/case-studies/decodyssey/scenario-loop.png",
+              alt: "The 5-part Decodyssey scenario loop",
+              caption: "Context → Trap → Decision → Choice → Feedback"
+            }
+        ]
+      },
+      {
+        title: "The Product",
+        blocks: [
+          { type: "text", value: "<strong>Offline-first. Zero-backend. Private by default.</strong>" },
+          { type: "text", value: "Decodyssey is a Progressive Web App (PWA) built so users can access full lessons without internet connectivity, data costs, or an account. Everything runs locally: modules are delivered as JSON, progress is tracked in localStorage, and Service Workers handle caching. No cloud, no microservices, no user data leaving the device." },
+          { type: "text", value: "The design is intentionally minimal. Bite-sized modules, focused scenarios, and local relevance — the content mirrors the everyday digital interactions users actually face, not hypothetical academic ones." },
+          { type: "image",
+            src: "assets/images/case-studies/decodyssey/lesson-screen.png",
+            alt: "Decodyssey lesson screen",
+            caption: "A scenario module in progress"
+          }
+        ]
+      },
+      {
+        title: "The Subtext Problem",
+        blocks: [
+          { type: "text", value: "<em>What the testing revealed</em>" },
+          { type: "text", value: "The pilot ran with 7 participants using pre- and post-test instruments. The baseline scores came back near-perfect — too perfect. Something was off." },
+          { type: "text", value: "The root cause wasn't learner ability. It was the interface itself. Each answer choice had descriptive subtext underneath it that was unintentionally telegraphing the \"correct\" critical-thinking answer. Users were scoring high not because they analyzed the scenario, but because they were picking up on subtle linguistic cues in the UI." },
+          { type: "text", value: "<strong>The fix:</strong> strip the choice subtext entirely. Force learners to evaluate options based strictly on scenario context, not visual or linguistic hints." },
+          { type: "text", value: "After the redesign, baseline scores dropped to realistic levels — which was the actual proof the intervention was working." }
+        ]
+      },
+      {
+        title: "Reflection",
+        blocks: [
+          { type: "text", value: "Decodyssey taught me that some of the most important design problems are invisible until testing exposes them. The Subtext Problem wasn't something I could have caught by reviewing my own work — the interface <em>looked</em> correct. It only became visible when real users interacted with it and the data didn't make sense." },
+          { type: "text", value: "That's the case for testing early and testing honestly, even with a small sample. Seven people were enough to surface a flaw that would have undermined the entire product's credibility." },
+          { type: "text", value: "If I were to keep going, the next step would be expanding the scenario library beyond deception mechanics into broader reasoning contexts — negotiation, resource decisions, information verification — while keeping the 2-to-3-minute constraint intact. The constraint is the design." }
+        ]
+      }
+    ],
+
+    links: {
+      notion: "https://magnificent-gauge-790.notion.site/Decodyssey-Microlearning-App-Case-Study-3f4bad679d9a80a1889ee2937cefbe42?source=copy_link",
+      figma:  "https://decodyssey.netlify.app/"
+    }
+    }
   };
 
   /* ---------- Renderers ---------- */
@@ -473,6 +652,12 @@ loadTrack(currentTrackIndex);
     }
     if (block.type === "visual") {
       return `<div class="cs-visual">${block.label}</div>`;
+    }
+    if (block.type === "image") {
+      return `<figure class="cs-figure">
+        <img src="${block.src}" alt="${block.alt}" loading="lazy">
+        ${block.caption ? `<figcaption>${block.caption}</figcaption>` : ""}
+      </figure>`;
     }
     if (block.type === "palette") {
       const swatches = block.items.map(s =>
@@ -513,7 +698,10 @@ loadTrack(currentTrackIndex);
         <h2 class="cs-title" id="csTitle">${data.title}</h2>
         <p class="cs-subtitle">${data.subtitle}</p>
         <div class="cs-meta">${metaHtml}</div>
-        <p class="cs-hook">${data.hook}</p>
+                <p class="cs-hook">${data.hook}</p>
+        ${data.hero ? `<figure class="cs-figure cs-hero-figure">
+          <img src="${data.hero.src}" alt="${data.hero.alt}" loading="lazy">
+        </figure>` : ""}
       </div>
     `;
 
