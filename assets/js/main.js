@@ -637,7 +637,7 @@ loadTrack(currentTrackIndex);
 
     links: {
       notion: "https://magnificent-gauge-790.notion.site/Decodyssey-Microlearning-App-Case-Study-3f4bad679d9a80a1889ee2937cefbe42?source=copy_link",
-      figma:  "https://decodyssey.netlify.app/"
+      figma:  "https://www.figma.com/proto/Hav7Ab4j6ysi4bDan5aHvW/Decodyssey?node-id=0-1&t=E6dEMGtbVt5RkbZI-1"
     }
     }
   };
